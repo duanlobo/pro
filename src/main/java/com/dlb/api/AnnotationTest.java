@@ -1,7 +1,10 @@
-package com.dlb.test;
+package com.dlb.api;
 
 import com.dlb.anno.Info;
 
+/**
+ * 测试注解
+ */
 public class AnnotationTest {
     public static void main(String[] args) {
         try {

@@ -1,7 +1,7 @@
-package com.dlb.test;
+package com.dlb.api;
 
 /**
- * 面试题
+ * 位运算（面试题）
  */
 public class Case {
     public static void main(String[] args) {

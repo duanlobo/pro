@@ -1,4 +1,4 @@
-package com.dlb.test;
+package com.dlb.api;
 
 import java.util.HashMap;
 import java.util.Hashtable;
@@ -7,7 +7,7 @@ import java.util.Map;
 /**
  * 测试
  */
-public class A {
+public class Map1 {
     public static void main(String[] args) {
         Map<Object,Object> map = new HashMap<Object,Object>();
         map.put(1,2);

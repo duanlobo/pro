@@ -1,4 +1,4 @@
-package com.dlb.utils;
+package com.dlb.util;
 
 import java.util.Arrays;
 import java.util.List;
@@ -21,7 +21,7 @@ public class Console {
             ((List<?>) o).forEach(o1 -> System.out.println(o1));
             return;
         }
-        if(o instanceof Map){
+        if (o instanceof Map) {
             ((Map<?, ?>) o).forEach((o1, o2) -> System.out.println(o1 + " : " + o2));
             return;
         }
@@ -30,5 +30,9 @@ public class Console {
             return;
         }
         System.out.println(o);
+    }
+
+    public static void err(Object str) {
+        System.err.println(String.valueOf(str));
     }
 }
